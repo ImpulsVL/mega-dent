@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega-dent</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/icons/logo.svg" alt="Логотип компании" />
+        <button class="header__button">
+            <img src="assets/icons/map.svg" alt="Положение" class="header__buttonIcon">
+            <span class="header__buttonText">3 Центра дентальной хирургии</span>
+        </button>
+        <nav>
+            <ul class="header__list">
+                <li><a class="header__link" href="#about">Награды</a></li>
+                <li><a class="header__link" href="#services">О клинике</a></li>
+                <li><a class="header__link" href="#contact">Расчёт</a></li>
+                <li><a class="header__link" href="#contact">Наши врачи</a></li>
+                <li><a class="header__link" href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__phoneBlock">
+            <a href="tel:+73452608247" class="header__phoneLink">
+                <img src="assets/icons/phone.svg" alt="Телефон" class="header__phoneIcon">
+                <span class="header__phoneText">+7 (345) 260-82-47</span>
+            </a>
+            <span class="header__text">Ежедневно с <span class="blue">9:00 до 21:00</span></span>
+            <button class="header__buttonPhone">Перезвонить мне</button>
+        </div>
+        <img src="assets/icons/link.svg" alt="Меню" class="header__linkIcon">
+
+        <div class="specHeader">
+            <button class="menu__close">&times;</button>
+            <div class="header__phoneBlock">
+                <a href="tel:+73452608247" class="header__phoneLink">
+                    <img src="assets/icons/phone.svg" alt="Телефон" class="header__phoneIcon">
+                    <span class="header__phoneText">+7 (345) 260-82-47</span>
+                </a>
+                <span class="header__text">Ежедневно с <span class="blue">9:00 до 21:00</span></span>
+                <button class="header__buttonPhone">Перезвонить мне</button>
+            </div>
+            <nav>
+                <ul class="header__list">
+                    <li><a class="header__link" href="#about">Награды</a></li>
+                    <li><a class="header__link" href="#services">О клинике</a></li>
+                    <li><a class="header__link" href="#contact">Расчёт</a></li>
+                    <li><a class="header__link" href="#contact">Наши врачи</a></li>
+                    <li><a class="header__link" href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+        <section class="main__sectionMain" id="main">
+            <div class="main__sectionBlock">
+                <div class="main__info">
+                    <span class="main__text">
+                        Имплантация зубов <p>в Тюмени с </p>
+                        <p class="blue">пожизненной гарантией </p>
+                        <p class="white__mini">на импланты</p>
+                    </span>
+                    <div class="main__stock">
+                        <div class="main__promotion">
+                            <img src="assets/images/tooth.svg" alt="Зуб" class="main__promotionTooth">
+                            <span class="main__promotionBlock">Имплантация по акции за 10 000 ₽</span>
+                            <span class="main__promotionText"><span class="white">Имплантация Osstem:</span> ОПТГ снимок
+                                + Имплантат + Работа имплантолога</span>
+                        </div>
+                        <div class="main__price">
+                            <span class="main__priceText">Ответьте на 4 вопроса и получите: расчёт стоимости +
+                                панорамный снимок + план лечения в 3 вариантах</span>
+                            <button class="main__buttonPrice" onclick="scrollToSection('med')">
+                                <img src="assets/images/lightBot.svg" alt="Скелет" class="main__buttonLight">
+                                <span class="">Рассчитать стоимость</span>
+                                <img src="assets/images/lightTop.svg" alt="Скелет" class="main__buttonLightTop">
+                                <img src="assets/images/skeleton.svg" alt="Скелет" class="main__buttonIcon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__solutions">
+                    <img src="assets/images/points.svg" alt="Кавычки" class="main__solutionsPoints">
+                    <div class="main__solutionsInfo">
+                        <p class="main__solutionsText">Внедряем <span class="bold">передовые решения</span> с выгодой
+                            для вас!</p>
+                        <p class="main__solutionsDiscription">Обращаясь к нам, вы выбираете
+                            <span class="bold">не экономить</span> на здоровье
+                        </p>
+                        <p class="main__solutionsDiscription plus">Выбираете <span class="bold">инновационное</span>
+                            оборудование и опытных врачей
+                            для имплантации <span class="bold">с комфортом</span>
+                        </p>
+                        <p class="main__name">Владислав</p>
+                        <p class="main__position">Хирург-имплантолог</p>
+                    </div>
+                    <div class="main__solutionsBlock"></div>
+                </div>
+                <img src="assets/images/man.svg" alt="Человек" class="main__sectionMan">
+                <img src="assets/images/whiteBackground.svg" alt="Фон" class="main__sectionBack">
+            </div>
+        </section>
+        <section class="main__sectionImplant" id="implant">
+            <div class="implant_switch">
+                <div class="implant_block">
+                    <div class="implant_blockInfo">
+                        <p class="implant_infoHead"><span class="blue">«центр дентальной имплантации»</span> —
+                            это 3 филиала общей
+                            площадью 3000 м</p>
+                        <p class="implant_infoText">С учебным и детским отделениями, ортопедией,
+                            хирургией, цифровой зуботехнической лабораторией</p>
+                    </div>
+                </div>
+                <div class="switch__item active" id="item1">
+                    <div class="switch__itemFirst">
+                        <p class="switch__itemText">Утраченные зубы - это не только эстетическая
+                            проблема, но и риск для здоровья.
+                        </p>
+                        <p class="switch__itemPreText"> Протезирование позволяет вернуть не только
+                            красивую улыбку, но и полноценную жизнь.
+                        </p>
+                    </div>
+                </div>
+                <div class="switch__item" id="item2">
+                    <div class="switch__itemSecond">
+                        <p class="switch__itemText">Имплантация зубов – это современная и эффективная процедура,
+                            позволяющая восстановить утраченные зубы и вернуть уверенность в себе. Что такое имплантация
+                            зубов?
+                        </p>
+                        <p class="switch__itemPreText">Имплантация - это хирургическая процедура, при которой в
+                            челюстную кость вживляется титановый имплантат, который служит опорой для искусственного
+                            зуба.
+                        </p>
+                    </div>
+                </div>
+                <div class="switch__item" id="item2">
+                    <div class="switch__itemThird">
+                        <p class="switch__itemText">Красивая и здоровая улыбка – это не только эстетика, но и залог
+                            вашего здоровья.
+                            Следуйте этим простым правилам, чтобы сохранить свои зубы здоровыми и красивыми на долгие
+                            годы:
+                        </p>
+                        <p class="switch__itemPreText">
+                        <p class="switch__itemPreText">1. Чистите зубы дважды в день</p>
+                        <p class="switch__itemPreText">2. Не забывайте про межзубные щетки</p>
+                        <p class="switch__itemPreText">3. Посещайте стоматолога дважды в год</p>
+                        <p class="switch__itemPreText">4. Ограничьте употребление сладкого</p>
+                        <p class="switch__itemPreText">5. Не забывайте про фтор</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="switch_button">
+                    <img src="assets/icons/left-switch.svg" alt="Влево" class="switch_buttonLeft" id="prevBtn">
+                    <img src="assets/icons/right-switch.svg" alt="Вправо" class="switch_buttonRight" id="nextBtn">
+                </div>
+            </div>
+        </section>
+        <section class="main__sectionMed" id="med">
+            <div class="med__block">
+                <div class="med__blockSpec">
+                    <img src="assets/images/doctor1.png" alt="Кавычки" class="med__doctorImgSec">
+                    <div class="med__doctorInfo">
+                        <p class="med__doctorText">Дмитрий</p>
+                        <p class="med__doctorPreText">Стоматолог-хирург- имплантолог</p>
+                        <p class="med__doctorPreText">Cтаж</p>
+                        <p class="med__doctorText">9 лет</p>
+                    </div>
+                </div>
+                <img src="assets/images/doctor1.png" alt="Кавычки" class="med__doctorImg">
+                <img src="assets/images/blurBlue.svg" alt="Кавычки" class="med__blurImg">
+                <div class="med__discription">
+                    <div class="med__discriptionBlock">
+                        <div class="med__guarantee">
+                            <img src="assets/images/points-orange.svg" alt="Кавычки" class="med__guaranteePoints">
+                            <div class="med__guaranteeInfo">
+                                <p class="med__guaranteeText">Почему не 15 или 20 лет гарантии</p>
+                                <p class="med__guaranteeDiscription">«Верите ли вы в такие цифры?
+                                    Вплоть до 5 лет мы действительно
+                                    готовы <span class="bold">всё переделать</span> за свой счёт.
+                                    И это прописано в договоре.
+                                </p>
+                                <p class="med__guaranteeDiscription">Однако такого <span class="bold">не
+                                        случалось.</span> И даже
+                                    импланты, установленные <span class="bold">ещё в 2003
+                                        году</span>, стабильно служат пациентам <span class="bold">по
+                                        сей день».</span>
+                                </p>
+                            </div>
+                            <img src="assets/icons/tring.svg" alt="Кавычки" class="med__tring">
+                        </div>
+                        <button class="med__button">Записаться на прием</button>
+                    </div>
+                    <div class="med__discriptionSec">
+                        <div class="med__discriptionPreSec">
+                            <img src="assets/images/card.svg" alt="Карта" class="med__discriptionCard">
+                            <div class="med__discriptionTextBlock">
+                                <p class="med__discriptionHead">Пожизненная</p>
+                                <p class="med__discriptionText">Гарантия на импланты
+                                    от производителя</p>
+                            </div>
+                        </div>
+                        <div class="med__discriptionPreSec">
+                            <img src="assets/images/document.svg" alt="Документ" class="med__discriptionDoc">
+                            <div class="med__discriptionTextBlock">
+                                <p class="med__discriptionHead">До 5 лет</p>
+                                <p class="med__discriptionText">Гарантии на работу
+                                    стоматолога по договору</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="popup__overlay" id="callbackPopup">
+        <div class="popup__content">
+            <button class="popup__close">&times;</button>
+            <h2 class="popup__title">Оставьте ваши контакты, мы перезвоним в течение 15 минут</h2>
+            <form class="popup__form">
+                <div class="form__group">
+                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required>
+                </div>
+                <button type="submit" class="popup__submit">Заказать звонок</button>
+                <p class="popup__agreement">Нажимая на кнопку, вы соглашаетесь с условиями обработки <span
+                        class="spec">персональных данных.</span>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts/switcher.js"></script>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/popup.js"></script>
+    <script src="scripts/menu.js"></script>
+
+</body>
+
+</html>

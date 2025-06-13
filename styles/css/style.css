@@ -1,0 +1,1220 @@
+* {
+  margin: 0;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.header {
+  background-color: rgb(68, 67, 80);
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__button {
+  position: relative;
+  max-width: 210px;
+  background: linear-gradient(90deg, rgb(168, 123, 250), rgb(64, 122, 202));
+  padding: 8px 23px 8px 35px;
+  border: none;
+  border-radius: 20px;
+}
+
+.header__buttonIcon {
+  position: absolute;
+  left: 8px;
+}
+
+.header__buttonText {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.header__list {
+  width: 520px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-left: 5px;
+  list-style: none;
+}
+
+.header__link {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header__link:hover {
+  opacity: 0.8;
+}
+
+.header__phoneBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-left: 15px;
+}
+
+.header__text {
+  color: rgb(254, 254, 254);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+.header__text .blue {
+  color: rgb(54, 122, 202);
+  font-weight: 600;
+}
+
+.header__phoneLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  gap: 8px;
+}
+
+.header__phoneText {
+  color: rgb(254, 254, 254);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header__buttonPhone {
+  max-width: 210px;
+  background: linear-gradient(90deg, rgb(168, 123, 250), rgb(64, 122, 202));
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(254, 254, 254);
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.header__buttonPhone:hover {
+  opacity: 0.8;
+}
+
+.main {
+  position: relative;
+  background-color: rgb(65, 64, 77);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__sectionMain {
+  display: flex;
+  justify-content: center;
+}
+
+.main__sectionBlock {
+  padding: 160px 160px 145px 160px;
+  z-index: 15;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 320px;
+}
+
+.main__sectionMan {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: 454px;
+}
+
+.main__sectionBack {
+  width: 726px;
+  height: 726px;
+  position: absolute;
+  z-index: 5;
+  right: 354px;
+  bottom: 112px;
+}
+
+.main__info {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 56px;
+}
+
+.main__text {
+  max-width: 595px;
+  color: rgb(254, 254, 254);
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 68px;
+  font-family: "Inter", sans-serif;
+}
+.main__text .blue {
+  width: 610px;
+  color: rgb(54, 122, 202);
+  font-family: "Inter", sans-serif;
+}
+.main__text .white__mini {
+  letter-spacing: 2.5px;
+  font-weight: 400;
+}
+
+.main__promotion {
+  position: relative;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 9.5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 19px 21px 29px 86px;
+}
+
+.main__promotionTooth {
+  position: absolute;
+  top: -40px;
+  left: -55px;
+}
+
+.main__promotionBlock {
+  max-width: 382px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-align: center;
+  font-size: 30px;
+  line-height: 33px;
+  font-family: "Inter", sans-serif;
+  padding: 9.5px 14px 10.5px 14px;
+  background-color: rgb(54, 122, 202);
+  border-radius: 10px;
+}
+
+.main__promotionText {
+  max-width: 322px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.main__promotionText .white {
+  font-weight: 700;
+}
+
+.main__stock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.main__price {
+  display: flex;
+  flex-direction: column;
+  gap: 14.5px;
+}
+
+.main__priceText {
+  max-width: 400px;
+  color: rgb(190, 189, 197);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.main__buttonPrice {
+  position: relative;
+  width: 339px;
+  padding: 27.5px 46.5px 28.5px 62.5px;
+  border-radius: 5px;
+  background-color: rgb(54, 122, 202);
+  border: 3px solid rgb(54, 122, 202);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.main__buttonPrice:hover {
+  opacity: 0.8;
+}
+
+.main__buttonLight {
+  position: absolute;
+  left: 3px;
+  bottom: -3px;
+}
+
+.main__buttonLightTop {
+  position: absolute;
+  right: 3px;
+  top: -3px;
+}
+
+.main__buttonIcon {
+  position: absolute;
+  right: -12px;
+}
+
+.main__solutions {
+  margin-top: 34px;
+  position: relative;
+  width: 373px;
+  height: 396px;
+  border-radius: 16px;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  z-index: 20;
+}
+
+.main__solutionsInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 41.5px 24.6px 33px 41px;
+}
+
+.main__solutionsText {
+  max-width: 290px;
+  color: rgb(68, 76, 84);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+.main__solutionsText .bold {
+  font-weight: 700;
+}
+
+.main__solutionsDiscription {
+  max-width: 260px;
+  color: rgb(68, 76, 84);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.main__solutionsDiscription .bold {
+  font-weight: 700;
+}
+
+.plus {
+  padding: 5px 0px;
+}
+
+.main__name {
+  color: rgb(68, 76, 84);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 5px 0px;
+}
+
+.main__position {
+  height: 4px;
+  color: rgb(150, 150, 150);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+.main__solutionsBlock {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+  transform: rotate(45deg);
+  bottom: 60px;
+  left: -10px;
+}
+
+.main__solutionsPoints {
+  position: absolute;
+  top: -30px;
+  left: 40px;
+}
+
+.main__sectionImplant {
+  background-color: rgb(242, 242, 242);
+  padding: 62px 169px 21px 150px;
+}
+
+.implant_switch {
+  position: relative;
+  width: 1055px;
+  height: 702px;
+}
+
+.switch__item {
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.switch__item.active {
+  display: block;
+  opacity: 1;
+}
+
+.switch__itemFirst {
+  transition: transform 0.2s;
+  border-radius: 10px;
+  width: 1055px;
+  height: 702px;
+  background-image: linear-gradient(to bottom, rgba(65, 64, 76, 0.73), rgba(65, 64, 76, 0)), url("../../assets/images/first-switch.svg");
+}
+
+.switch__itemSecond {
+  border-radius: 10px;
+  width: 1055px;
+  height: 702px;
+  background-image: linear-gradient(to bottom, rgba(65, 64, 76, 0.73), rgba(65, 64, 76, 0)), url("../../assets/images/second-switch.svg");
+}
+
+.switch__itemThird {
+  border-radius: 10px;
+  width: 1055px;
+  height: 702px;
+  background-image: linear-gradient(to bottom, rgba(65, 64, 76, 0.73), rgba(65, 64, 76, 0)), url("../../assets/images/third-switch.svg");
+}
+
+.switch_button {
+  position: absolute;
+  bottom: 40px;
+  right: 143px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+}
+.switch_button .switch_buttonLeft {
+  cursor: pointer;
+}
+.switch_button .switch_buttonLeft:hover {
+  opacity: 0.8;
+}
+.switch_button .switch_buttonRight {
+  cursor: pointer;
+}
+.switch_button .switch_buttonRight:hover {
+  opacity: 0.8;
+}
+
+.switch__itemText {
+  max-width: 580px;
+  padding: 73px 0px 0px 70px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 33px;
+}
+
+.switch__itemPreText {
+  max-width: 580px;
+  padding: 0px 0px 0px 70px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 33px;
+}
+
+.implant_block {
+  width: 660px;
+  height: 428px;
+  position: absolute;
+  top: 137px;
+  right: -550px;
+  background-color: rgba(242, 242, 242, 0.8);
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.implant_blockInfo {
+  padding: 68px 47px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.implant_infoHead {
+  max-width: 460px;
+  text-transform: uppercase;
+  color: rgb(68, 76, 84);
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+}
+.implant_infoHead .blue {
+  color: rgb(54, 122, 202);
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 55px;
+}
+
+.implant_infoText {
+  color: rgb(68, 76, 84);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.main__sectionMed {
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+}
+
+.med__block {
+  position: relative;
+  padding: 187px 0px 63px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 506px;
+}
+
+.med__doctorInfo {
+  position: relative;
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  z-index: 100;
+}
+
+.med__doctorText {
+  color: rgb(68, 76, 84);
+  font-weight: 800;
+  max-width: 135px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.med__doctorPreText {
+  color: rgb(68, 76, 84);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.med__discription {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.med__discriptionBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.med__guarantee {
+  position: relative;
+  width: 384px;
+  height: 372px;
+  border-radius: 16px;
+  background-color: rgb(243, 243, 243);
+  z-index: 20;
+}
+
+.med__guaranteeInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 14.5px;
+  padding: 34px 29px 65px 36px;
+}
+
+.med__guaranteeText {
+  text-transform: uppercase;
+  color: rgb(32, 32, 32);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.med__guaranteeDiscription {
+  max-width: 290px;
+  color: rgb(86, 91, 97);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.med__guaranteeDiscription .bold {
+  font-weight: 700;
+}
+
+.med__button {
+  max-width: 248px;
+  background: linear-gradient(90deg, rgb(168, 123, 250), rgb(64, 122, 202));
+  padding: 2px 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(254, 254, 254);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.med__button:hover {
+  opacity: 0.8;
+}
+
+.med__guaranteePoints {
+  position: absolute;
+  top: -23px;
+  left: 30px;
+}
+
+.med__discriptionSec {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  z-index: 150;
+}
+
+.med__discriptionCard {
+  width: 106px;
+  height: 77px;
+}
+
+.med__discriptionDoc {
+  width: 106px;
+  height: 77px;
+}
+
+.med__tring {
+  position: absolute;
+  bottom: 100px;
+  left: -10px;
+}
+
+.med__discriptionHead {
+  color: rgb(65, 64, 77);
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.med__discriptionText {
+  max-width: 200px;
+  color: rgb(65, 64, 77);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.med__doctorImg {
+  width: 537px;
+  height: 562.5px;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  z-index: 5;
+}
+
+.med__blurImg {
+  width: 656px;
+  height: 656px;
+  position: absolute;
+  bottom: 0px;
+  left: 55px;
+  z-index: 0;
+}
+
+.med__discriptionPreSec {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.med__discriptionTextBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.med__doctorImgSec {
+  display: none;
+}
+
+.popup__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup__content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 56px 84px 65px 84px;
+  border-radius: 10px;
+  max-width: 470px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.popup__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+}
+
+.popup__title {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.popup__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form__group input {
+  width: 100%;
+  padding: 25px 36px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px 30px 5px 30px;
+  font-size: 16px;
+}
+
+.popup__submit {
+  cursor: pointer;
+  width: 100%;
+  padding: 25px 36px;
+  border: none;
+  border-radius: 5px 30px 5px 30px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: rgb(54, 122, 202);
+}
+
+.popup__submit:hover {
+  opacity: 0.9;
+}
+
+.popup__agreement {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #777;
+  text-align: left;
+  margin-top: 15px;
+}
+.popup__agreement .spec {
+  display: inline;
+  background-image: linear-gradient(90deg, currentColor 50%, transparent 50%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 2px;
+  padding-bottom: 2px;
+}
+
+.specHeader {
+  background-image: url("../../assets/images/backgroundStars.png");
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #444350;
+  padding: 124px 0px 353px 0px;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.specHeader.active {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 86px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__linkIcon {
+  cursor: pointer;
+  display: none;
+}
+
+.menu__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+}
+
+@media (max-width: 1379px) {
+  .header__linkIcon {
+    display: block;
+  }
+  nav,
+  .header__phoneBlock {
+    display: none;
+  }
+  .specHeader nav {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .specHeader .header__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .specHeader .header__phoneBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1380px) and (max-width: 1919px) {
+  .implant_block {
+    width: 530px;
+    height: 388px;
+    right: -150px;
+  }
+  .implant_blockInfo {
+    padding: 48px 27px;
+  }
+  .main__sectionBlock {
+    padding: 160px 0px 145px 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1379px) {
+  .header {
+    justify-content: space-between;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__phoneBlock {
+    display: none;
+  }
+  .header__list {
+    display: none;
+  }
+  .header__linkIcon {
+    display: block;
+  }
+  .main__sectionMain {
+    background-image: url("../../assets/images/backgroundStars.png");
+  }
+  .main__sectionBlock {
+    gap: 90px;
+    padding: 50px 20px 250px 20px;
+  }
+  .main__solutionsBlock {
+    display: none;
+  }
+  .main__solutionsInfo {
+    padding: 25px;
+  }
+  .main__solutionsText {
+    max-width: 180px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .main__solutionsDiscription {
+    font-size: 14px;
+  }
+  .main__text {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .main__text .blue {
+    width: 350px;
+  }
+  .main__solutions {
+    width: 290px;
+  }
+  .main__promotion {
+    padding: 19px 19px 19px 55px;
+    max-width: 255px;
+    border-radius: 15px;
+  }
+  .main__promotionBlock {
+    max-width: 230px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .main__promotionTooth {
+    width: 122px;
+    height: 122px;
+    left: -40px;
+  }
+  .main__priceText {
+    max-width: 330px;
+  }
+  .main__promotionText {
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .main__sectionMan {
+    width: 424px;
+    right: 150px;
+  }
+  .main__sectionBack {
+    right: 0px;
+  }
+  .main__buttonPrice {
+    width: 300px;
+    padding: 30px 40px 30px 30px;
+  }
+  .main__buttonIcon {
+    right: -25px;
+  }
+  .main__sectionImplant {
+    padding: 0px;
+  }
+  .switch__itemFirst {
+    width: 450px;
+    height: 355px;
+    background-size: cover;
+  }
+  .switch__itemSecond {
+    width: 450px;
+    height: 355px;
+    background-size: cover;
+  }
+  .switch__itemThird {
+    width: 450px;
+    height: 355px;
+    background-size: cover;
+  }
+  .implant_switch {
+    width: 450px;
+    height: 355px;
+  }
+  .implant_block {
+    top: 42.5px;
+    right: -300px;
+    width: 441px;
+    height: 270px;
+  }
+  .implant_blockInfo {
+    padding: 27px 28px;
+  }
+  .implant_infoHead {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .implant_infoHead .blue {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .implant_infoText {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .switch__itemText {
+    font-size: 11px;
+    line-height: 20px;
+    max-width: 270px;
+    padding: 73px 0px 0px 35px;
+  }
+  .switch__itemPreText {
+    font-size: 11px;
+    line-height: 20px;
+    max-width: 270px;
+    padding: 0px 0px 0px 35px;
+  }
+  .switch_button {
+    left: 20px;
+    bottom: 20px;
+  }
+  .med__blurImg {
+    display: none;
+  }
+  .med__button {
+    display: none;
+  }
+  .med__block {
+    gap: 154px;
+    padding: 65px 0px 63px 0px;
+  }
+  .med__doctorImg {
+    width: 434px;
+    height: 464px;
+    left: -60px;
+  }
+  .med__discription {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .med__discriptionPreSec {
+    flex-direction: row;
+  }
+  .med__doctorText {
+    font-size: 23px;
+    line-height: 31px;
+  }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .header {
+    justify-content: space-between;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__phoneBlock {
+    display: none;
+  }
+  .header__list {
+    display: none;
+  }
+  .header__linkIcon {
+    display: block;
+  }
+  .main__sectionMan {
+    display: none;
+  }
+  .main__sectionBack {
+    display: none;
+  }
+  .main__solutions {
+    display: none;
+  }
+  .med__blurImg {
+    display: none;
+  }
+  .med__button {
+    display: none;
+  }
+  .main__text {
+    font-size: 19.5px;
+    line-height: 32px;
+  }
+  .main__text .blue {
+    width: 300px;
+  }
+  .main__info {
+    gap: 27px;
+  }
+  .main__promotion {
+    max-width: 358px;
+    padding: 17px 17px 17px 41px;
+  }
+  .main__sectionBlock {
+    padding: 28px 16px;
+  }
+  .main__promotionTooth {
+    width: 97px;
+    height: 97px;
+  }
+  .main__promotionBlock {
+    max-width: 280px;
+    padding: 10px 28px 12px 10px;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: start;
+  }
+  .main__promotionText {
+    max-width: 250px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .main__priceText {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .main__buttonPrice {
+    width: 285px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 30px 50px 30px 30px;
+  }
+  .main__buttonIcon {
+    right: -50px;
+  }
+  .main__promotionTooth {
+    top: -15px;
+    left: -35px;
+  }
+  .switch__itemFirst {
+    width: 350px;
+    height: 238px;
+    background-size: cover;
+  }
+  .switch__itemSecond {
+    width: 358px;
+    height: 238px;
+    background-size: cover;
+  }
+  .switch__itemThird {
+    width: 358px;
+    height: 238px;
+    background-size: cover;
+  }
+  .implant_switch {
+    width: 350px;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .implant_block {
+    width: 358px;
+    height: 209px;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .implant_infoHead {
+    font-size: 21px;
+    line-height: 31px;
+    max-width: 283px;
+  }
+  .implant_infoHead .blue {
+    font-size: 21px;
+    line-height: 31px;
+  }
+  .implant_infoText {
+    max-width: 283px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .main__sectionImplant {
+    padding: 0px 16px;
+  }
+  .implant_blockInfo {
+    padding: 0px;
+  }
+  .switch__itemText {
+    font-size: 11px;
+    line-height: 20px;
+    max-width: 270px;
+    padding: 60px 0px 0px 45px;
+  }
+  .switch__itemPreText {
+    font-size: 11px;
+    line-height: 20px;
+    max-width: 270px;
+    padding: 0px 0px 0px 45px;
+  }
+  .switch_button {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+  .med__doctorImg {
+    display: none;
+  }
+  .med__block {
+    padding: 16px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .med__discription {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .med__discriptionPreSec {
+    align-items: center;
+  }
+  .med__guarantee {
+    width: 350px;
+    height: 296px;
+  }
+  .med__guaranteeText {
+    max-width: 160px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .med__guaranteeDiscription {
+    max-width: 400px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .med__guaranteeInfo {
+    gap: 7px;
+    padding: 25px 24px 15px 15px;
+  }
+  .med__guaranteePoints {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+  }
+  .med__doctorInfo {
+    text-align: right;
+    gap: 8.5px;
+  }
+  .med__doctorImgSec {
+    display: block;
+    width: 215px;
+    height: 225px;
+    bottom: 0;
+    right: 20px;
+  }
+  .med__blockSpec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popup__content {
+    padding: 25px 40px;
+  }
+  .popup__title {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .med__doctorText {
+    max-width: 270px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
