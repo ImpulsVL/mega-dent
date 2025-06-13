@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
 * {
   margin: 0;
   font-family: "Monsterrat", sans-serif;
@@ -1080,7 +1088,7 @@
     right: -50px;
   }
   .main__promotionTooth {
-    top: -15px;
+    top: -30px;
     left: -35px;
   }
   .switch__itemFirst {
